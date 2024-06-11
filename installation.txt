@@ -1,0 +1,4 @@
+- Mongo DB Installation
+    https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
+- Mongo DB Shell
+    https://www.mongodb.com/docs/mongodb-shell/
