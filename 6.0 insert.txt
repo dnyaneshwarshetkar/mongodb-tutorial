@@ -1,0 +1,4 @@
+MongoDB mongosh Insert
+There are two menthods to insert documents
+1. insertOne()
+2. insertMany()

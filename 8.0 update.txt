@@ -1,0 +1,10 @@
+Update Document
+    - To update an existing document we can use the updateOne() or updateMany() methods.
+    - The first parameter is a query object to define which document or documents should be updated.
+    - The second parameter is an object defining the updated data.
+updateOne()
+    - The updateOne() method will update the first document that is found matching the provided query.
+updateMany()
+    - The updateMany() method will update all documents that match the provided query.
+
+    666a6dca29f0304c8bcdcdf6

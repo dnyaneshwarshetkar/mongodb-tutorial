@@ -1,0 +1,8 @@
+FindData
+    -   There are 2 methods to find and select data from a MongoDB collection, find() and findOne().
+Querying Data
+    -   To query, or filter, data we can include a query in our find() or findOne() methods.
+Projection
+    -   Both find methods accept a second parameter called projection.
+
+    -   This parameter is an object that describes which fields to include in the results.

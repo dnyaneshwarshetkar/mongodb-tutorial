@@ -1,0 +1,4 @@
+Create Collection Using Mongosh
+    - There are 2 ways to create a collection.
+        1. You can create a collection using the createCollection() database method.
+        2. You can also create a collection during the insert process.
