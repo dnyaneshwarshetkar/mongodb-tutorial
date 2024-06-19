@@ -1,0 +1,25 @@
+Aggregation Pipelines
+
+ - Aggregation operations allow you to group, sort, perform calculations, analyze data, and much more.
+ - Aggregation pipelines can have one or more "stages". 
+ - The order of these stages are important. 
+ - Each stage acts upon the results of the previous stage.
+
+$group
+  - This aggregation stage groups documents by the unique _id expression provided.
+
+$limit
+  - This aggregation stage limits the number of documents passed to the next stage.
+
+$project
+  - This aggregation stage passes only the specified fields along to the next aggregation stage.
+
+$sort
+  - This aggregation stage groups sorts all documents in the specified sort order.
+
+$match
+  - This aggregation stage behaves like a find. It will filter documents that match the query provided.
+
+
+$count
+  - This aggregation stage counts the total amount of documents passed from the previous stage.
